@@ -1,4 +1,4 @@
-/* ---- BASE roxo ---- */
+/* ---- BASE agelical---- */
 .root {
     -fx-font-family: "Segoe UI", Arial, sans-serif;
     -fx-base: #3C3F41;
@@ -33,7 +33,7 @@
 }
 
 .sidebar-button .icon {
-    -fx-fill: purple;
+    -fx-fill: #FFFFFF;
 }
 
 .sidebar-button:hover .icon {
@@ -51,7 +51,7 @@
 }
 
 .button {
-    -fx-background-color: #66066;
+    -fx-background-color: #DAA520;
     -fx-text-fill: white;
     -fx-font-weight: bold;
     -fx-background-radius: 5px;
@@ -71,8 +71,8 @@
 
 /* ---- TABELA ---- */
 .table-view {
-    -fx-background-color: purple;
-    -fx-border-color: purple;
+    -fx-background-color: #DAA520;
+    -fx-border-color: #DAA520;
     -fx-border-radius: 5px;
     -fx-background-radius: 5px;
 }
@@ -106,7 +106,7 @@
 }
 
 .table-view .table-row-cell:hover {
-    -fx-background-color: purple;
+    -fx-background-color: #DAA520;
 }
 
 /* ---- FORMULÁRIO ---- */
@@ -122,12 +122,12 @@
 }
 
 .text-field:focused {
-    -fx-border-color: purple;
+    -fx-border-color: #DAA520;
     -fx-border-width: 2px;
 }
 
 .date-picker .arrow-button {
-    -fx-background-color: purple;
+    -fx-background-color: #DAA520;
 }
 
 /* ---- BARRA DE STATUS ---- */

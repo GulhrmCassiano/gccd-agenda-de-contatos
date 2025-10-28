@@ -1,4 +1,4 @@
-/* ---- BASE roxo ---- */
+/* ---- BASE branco ---- */
 .root {
     -fx-font-family: "Segoe UI", Arial, sans-serif;
     -fx-base: #3C3F41;
@@ -33,7 +33,7 @@
 }
 
 .sidebar-button .icon {
-    -fx-fill: purple;
+    -fx-fill: white;
 }
 
 .sidebar-button:hover .icon {
@@ -47,7 +47,7 @@
 
 /* ---- COMPONENTES ---- */
 .label {
-    -fx-text-fill: #E4E6EB;
+    -fx-text-fill: white;
 }
 
 .button {
@@ -60,7 +60,7 @@
 }
 
 .button:hover {
-    -fx-background-color: #9933ff;
+    -fx-background-color:white;
 }
 
 /* Estilo para botões de ação na tabela */
@@ -71,8 +71,8 @@
 
 /* ---- TABELA ---- */
 .table-view {
-    -fx-background-color: purple;
-    -fx-border-color: purple;
+    -fx-background-color: white;
+    -fx-border-color: white;
     -fx-border-radius: 5px;
     -fx-background-radius: 5px;
 }
@@ -106,7 +106,7 @@
 }
 
 .table-view .table-row-cell:hover {
-    -fx-background-color: purple;
+    -fx-background-color: white;
 }
 
 /* ---- FORMULÁRIO ---- */
@@ -122,12 +122,12 @@
 }
 
 .text-field:focused {
-    -fx-border-color: purple;
+    -fx-border-color: white;
     -fx-border-width: 2px;
 }
 
 .date-picker .arrow-button {
-    -fx-background-color: purple;
+    -fx-background-color: white;
 }
 
 /* ---- BARRA DE STATUS ---- */
